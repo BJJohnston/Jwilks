@@ -12,7 +12,7 @@ google_analytics_code: ""
 aboutme: "Test"
 
 # social settings
-facebook_url:
+facebook_url: https://facebook.com
 instagram_url: https://instagram.com
 linkedin_url: https://linkedin.com
 twitter_url: https://twitter.com
