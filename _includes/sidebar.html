@@ -18,3 +18,10 @@ Yep, a city in southern Viet Nam. Did you know Saigon has some of the world's mo
 <p>
   A good advice though is probably bringing your headphones with you since Asian music taste evolves around ”Criminal” by Britney Spears and the like.
 </p>
+
+{% for icon in social-icons %}
+  <a class="social-icon--link {{ icon.class }}" href="{{ icon.url }}">
+    {% include {{ icon.class | prepend: 'social-icons/' | append: '.svg' }} %}
+    <span class="social-icon--title visuallyHidden">{{ icon.title }}</span>
+  </a>
+{% endfor %}
