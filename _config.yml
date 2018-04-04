@@ -10,3 +10,9 @@ disqus_shortname: "example"
 copyright_year: "2018"
 google_analytics_code: ""
 aboutme: "Test"
+
+# social settings
+facebook_url:
+instagram_url: https://instagram.com
+linkedin_url: https://linkedin.com
+twitter_url: https://twitter.com
